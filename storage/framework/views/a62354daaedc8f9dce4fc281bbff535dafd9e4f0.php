@@ -1,0 +1,1 @@
+<input type="hidden" name="<?php echo e($field['name']); ?>" class="form-control <?php echo e(@$field['class']); ?>" id="<?php echo e(isset($field['id']) ? $field['id'] : $field['name']); ?>" value="<?php echo e(isset($_POST[$field['name']]) ? $_POST[$field['name']] : $field['value']); ?>" placeholder="<?php echo e($field['label']); ?>">
